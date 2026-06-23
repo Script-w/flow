@@ -1,448 +1,224 @@
 <!doctype html>
 <html lang="en" class="scroll-smooth">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Flowstate Tech designs, builds, and supports web applications for growing teams.">
-        <meta name="theme-color" content="#08111f">
-        <meta property="og:title" content="Flowstate Tech | Web applications, engineered with intent">
-        <meta property="og:description" content="Custom software delivery, digital experiences, and long-term platform support for growing teams.">
-        <meta property="og:type" content="website">
-        <link rel="icon" href="favicon.svg" type="image/svg+xml">
-        <link rel="stylesheet" href="app.css">
-        <script src="app.js" defer></script>
-        <title>Flowstate Tech | Web applications, engineered with intent</title>
-    </head>
-    <body class="bg-ink text-slate-100 antialiased">
-        <a class="skip-link" href="#main-content">Skip to content</a>
-        <header class="site-header" data-header>
-            <div class="shell flex h-20 items-center justify-between">
-                <a href="index.html" class="group flex items-center gap-3" aria-label="Flowstate Tech home">
-                    <span class="brand-mark" aria-hidden="true">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </span>
-                    <span class="text-lg font-semibold tracking-tight text-white">
-                        flowstate<span class="text-cyan">tech</span>
-                    </span>
-                </a>
-                <nav class="hidden items-center gap-8 md:flex" aria-label="Primary navigation">
-                    <a class="nav-link" href="#services">Services</a>
-                    <a class="nav-link" href="#approach">Why us</a>
-                    <a class="nav-link" href="#process">Process</a>
-                    <a class="nav-link" href="#about">About</a>
-                    <a class="button button-small button-primary" href="#contact">Start the conversation</a>
-                </nav>
-                <button class="menu-button md:hidden" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
-                    <span class="sr-only">Open navigation</span>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                        <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
-                    </svg>
-                </button>
-            </div>
-            <nav id="mobile-menu" class="mobile-menu shell md:hidden" aria-label="Mobile navigation" hidden data-mobile-menu>
-                <a href="#services">Services</a>
-                <a href="#approach">Why us</a>
-                <a href="#process">Process</a>
-                <a href="#about">About</a>
-                <a href="#contact">Start the conversation</a>
-            </nav>
-        </header>
-        <main id="main-content">
-            <section class="hero relative overflow-hidden pb-24 pt-20 sm:pb-32 sm:pt-28">
-                <div class="hero-grid" aria-hidden="true"></div>
-                <div class="hero-orb hero-orb-one" aria-hidden="true"></div>
-                <div class="hero-orb hero-orb-two" aria-hidden="true"></div>
-                <div class="shell relative z-10 grid items-center gap-16 lg:grid-cols-[1.08fr_.92fr]">
-                    <div data-reveal>
-                        <p class="eyebrow">
-                            <span class="status-dot"></span>
-                            Software engineering for growing teams
-                        </p>
-                        <h1 class="mt-7 max-w-4xl text-balance text-5xl font-semibold leading-[1.02] tracking-[-0.045em] text-white sm:text-6xl lg:text-7xl">
-                            Web applications,<br>
-                            <span class="gradient-text">engineered with intent.</span>
-                        </h1>
-                        <p class="mt-7 max-w-2xl text-lg leading-8 text-slate-300 sm:text-xl">Flowstate Tech designs, builds, and supports web applications that create value now and stay ready for what comes next.
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Flowstate Tech designs, builds, and supports web applications for growing teams.">
+  <meta name="theme-color" content="#08111f">
+  <meta property="og:title" content="Flowstate Tech | Web applications, engineered with intent">
+  <meta property="og:description" content="Custom software delivery, digital experiences, and long-term platform support for growing teams.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://flowstatech.com/">
+  <link rel="canonical" href="https://flowstatech.com/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="app.css">
+  <script src="app.js" defer></script>
+  <title>Flowstate Tech | Web applications, engineered with intent</title>
+</head>
+<body class="bg-ink text-slate-100 antialiased">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header" data-header>
+    <div class="shell flex h-20 items-center justify-between">
+      <a href="index.html" class="group flex items-center gap-3" aria-label="Flowstate Tech home">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="text-lg font-semibold tracking-tight text-white">flowstate<span class="text-cyan">tech</span></span>
+      </a>
+      <nav class="hidden items-center gap-8 md:flex" aria-label="Primary navigation">
+        <a class="nav-link" href="#services">Services</a>
+        <a class="nav-link" href="#approach">Why us</a>
+        <a class="nav-link" href="#process">Process</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="button button-small button-primary" href="#contact">Start the conversation</a>
+      </nav>
+      <button class="menu-button md:hidden" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
+        <span class="sr-only">Open navigation</span>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+    <nav id="mobile-menu" class="mobile-menu shell md:hidden" aria-label="Mobile navigation" hidden data-mobile-menu>
+      <a href="#services">Services</a>
+      <a href="#approach">Why us</a>
+      <a href="#process">Process</a>
+      <a href="#about">About</a>
+      <a href="#contact">Start the conversation</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero relative overflow-hidden pb-24 pt-20 sm:pb-32 sm:pt-28">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-orb hero-orb-one" aria-hidden="true"></div>
+      <div class="hero-orb hero-orb-two" aria-hidden="true"></div>
+      <div class="shell relative z-10 grid items-center gap-16 lg:grid-cols-[1.08fr_.92fr]">
+        <div data-reveal>
+          <p class="eyebrow"><span class="status-dot"></span> Software engineering for growing teams</p>
+          <h1 class="mt-7 max-w-4xl text-balance text-5xl font-semibold leading-[1.02] tracking-[-0.045em] text-white sm:text-6xl lg:text-7xl">
+            Web applications,<br><span class="gradient-text">engineered with intent.</span>
+          </h1>
+          <p class="mt-7 max-w-2xl text-lg leading-8 text-slate-300 sm:text-xl">
+            Flowstate Tech designs, builds, and supports web applications that create value now and stay ready for what comes next.
           </p>
-                        <div class="mt-10 flex flex-col gap-4 sm:flex-row">
-                            <a class="button button-primary" href="#contact">
-                                Start the conversation <span aria-hidden="true">&rarr;</span>
-                            </a>
-                            <a class="button button-secondary" href="#services">See how we help</a>
-                        </div>
-                        <div class="mt-12 flex flex-wrap gap-x-8 gap-y-3 text-sm text-slate-400">
-                            <span class="check-item">Direct collaboration</span>
-                            <span class="check-item">Practical architecture</span>
-                            <span class="check-item">Ongoing ownership</span>
-                        </div>
-                    </div>
-                    <div class="relative mx-auto w-full max-w-xl" data-reveal data-hero-visual>
-                        <div class="code-window" data-evolve-panel>
-                            <div class="code-toolbar">
-                                <div class="flex gap-2" aria-hidden="true">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </div>
-                                <span data-code-file data-code-toolbar>delivery-plan</span>
-                                <span class="code-status" data-code-status data-code-toolbar>&bull;active</span>
-                            </div>
-                            <div class="code-content" aria-label="An illustration of a delivery workflow">
-                                <div data-code-line>
-                                    <span class="code-purple">project</span>
-                                    = {
-                                </div>
-                                <div class="pl-5" data-code-line>
-                                    <span class="code-blue">goal</span>
-                                    : <span class="code-green" data-code-goal>"solve the right problem"</span>
-                                    ,
-                                </div>
-                                <div class="pl-5" data-code-line>
-                                    <span class="code-blue">pace</span>
-                                    : <span class="code-green" data-code-pace>"measured delivery"</span>
-                                    ,
-                                </div>
-                                <div class="pl-5" data-code-line>
-                                    <span class="code-blue">support</span>
-                                    : <span class="code-green" data-code-support>"long-term"</span>
-                                    ,
-                                </div>
-                                <div data-code-line>}</div>
-                                <div class="h-4" aria-hidden="true"></div>
-                                <div data-code-line>
-                                    <span class="code-cyan" data-code-step-one>review</span>
-                                    (project)
-                                </div>
-                                <div data-code-line>
-                                    <span class="code-cyan" data-code-step-two>build</span>
-                                    (project)
-                                </div>
-                                <div data-code-line>
-                                    <span class="code-cyan" data-code-step-three>improve</span>
-                                    (project)
-                                </div>
-                                <div class="h-4" aria-hidden="true"></div>
-                                <div data-code-line>
-                                    <span class="code-purple">status</span>
-                                    = <span class="code-green" data-code-result>"moving forward"</span>
-                                </div>
-                            </div>
-                            <div class="code-footer">
-                                <span>
-                                    <i></i>
-                                    <span data-code-footer-left>Delivery aligned</span>
-                                </span>
-                                <span data-code-footer-right>Built to evolve</span>
-                            </div>
-                        </div>
-                        <div class="hero-card-link" aria-hidden="true">
-                            <span class="hero-card-signal"></span>
-                        </div>
-                        <button class="floating-card floating-card-top floating-card-button" type="button" data-uptime-trigger aria-pressed="false" aria-label="Preview the uptime and reliability mode">
-                            <span class="pulse-ring"></span>
-                            <div>
-                                <strong>99.9%</strong>
-                                <small>uptime target</small>
-                            </div>
-                        </button>
-                        <button class="floating-card floating-card-bottom floating-card-button" type="button" data-evolve-trigger aria-pressed="false" aria-label="Preview how the product evolves over time">
-                            <span class="metric-icon">&#8599;</span>
-                            <div>
-                                <strong>Built to evolve</strong>
-                                <small>without the rewrite</small>
-                            </div>
-                        </button>
-                    </div>
-                </div>
-            </section>
-            <section class="metrics-band">
-                <div class="shell">
-                    <div class="metrics-grid">
-                        <article class="metric-card" data-reveal>
-                            <strong>Focused delivery</strong>
-                            <span>Work shaped around business priorities.</span>
-                        </article>
-                        <article class="metric-card" data-reveal>
-                            <strong>Long-term support</strong>
-                            <span>Built with continuity and change in mind.</span>
-                        </article>
-                        <article class="metric-card" data-reveal>
-                            <strong>Clear collaboration</strong>
-                            <span>Direct communication keeps decisions moving.</span>
-                        </article>
-                        <article class="metric-card" data-reveal>
-                            <strong>Growth-ready systems</strong>
-                            <span>Systems designed to keep up as teams evolve.</span>
-                        </article>
-                    </div>
-                </div>
-            </section>
-            <section id="services" class="section bg-surface">
-                <div class="shell">
-                    <div class="section-heading" data-reveal>
-                        <p class="eyebrow">What we build</p>
-                        <h2>Software delivery that helps your business move faster.</h2>
-                        <p>Practical product and engineering support without unnecessary overhead.</p>
-                    </div>
-                    <div class="mt-14 grid gap-5 md:grid-cols-2">
-                        <article class="service-card" data-reveal>
-                            <span class="service-number">01</span>
-                            <div class="service-icon">&#8984;</div>
-                            <h3>Custom business applications</h3>
-                            <p>Internal tools, portals, dashboards, and workflows shaped around how your team actually works.</p>
-                            <ul>
-                                <li>Internal platforms</li>
-                                <li>Responsive interfaces</li>
-                                <li>Workflow automation</li>
-                            </ul>
-                        </article>
-                        <article class="service-card" data-reveal>
-                            <span class="service-number">02</span>
-                            <div class="service-icon">{ }</div>
-                            <h3>Connected systems &amp;workflows</h3>
-                            <p>Reliable service layers that connect data, business rules, and the systems your team depends on.</p>
-                            <ul>
-                                <li>Application services</li>
-                                <li>Systems integration</li>
-                                <li>Secure data flows</li>
-                            </ul>
-                        </article>
-                        <article class="service-card" data-reveal>
-                            <span class="service-number">03</span>
-                            <div class="service-icon">&#9707;</div>
-                            <h3>Digital experiences</h3>
-                            <p>Fast, accessible user experiences that feel clear, polished, and easy to use.</p>
-                            <ul>
-                                <li>Design systems</li>
-                                <li>Accessible interactions</li>
-                                <li>Responsive experiences</li>
-                            </ul>
-                        </article>
-                        <article class="service-card" data-reveal>
-                            <span class="service-number">04</span>
-                            <div class="service-icon">&#8635;</div>
-                            <h3>Ongoing platform support</h3>
-                            <p>Long-term support that keeps your application healthy, secure, and aligned with the business.</p>
-                            <ul>
-                                <li>Deployment and monitoring</li>
-                                <li>Maintenance and enhancements</li>
-                                <li>Performance and reliability</li>
-                            </ul>
-                        </article>
-                    </div>
-                </div>
-            </section>
-            <section id="approach" class="section overflow-hidden">
-                <div class="shell">
-                    <div class="section-heading" data-reveal>
-                        <p class="eyebrow">Why Flowstate Tech</p>
-                        <h2>Built for teams that need clarity, momentum, and dependable execution.</h2>
-                        <p>Clear thinking, strong execution, and ownership that lasts beyond launch.</p>
-                    </div>
-                    <div class="why-grid mt-14">
-                        <article class="why-card why-card-feature" data-reveal>
-                            <span class="why-label">01</span>
-                            <h3>Business-first execution</h3>
-                            <p>Work starts from the business outcome, not technical novelty.</p>
-                            <ul>
-                                <li>Clear delivery priorities</li>
-                                <li>Practical product decisions</li>
-                                <li>Less wasted effort</li>
-                            </ul>
-                        </article>
-                        <article class="why-card why-card-feature" data-reveal>
-                            <span class="why-label">02</span>
-                            <h3>Systems that stay understandable</h3>
-                            <p>Applications stay maintainable, adaptable, and easier for teams to work with over time.</p>
-                            <ul>
-                                <li>Maintainable architecture</li>
-                                <li>Clear system boundaries</li>
-                                <li>Safer future changes</li>
-                            </ul>
-                        </article>
-                        <article class="why-card why-card-feature" data-reveal>
-                            <span class="why-label">03</span>
-                            <h3>Long-term technical ownership</h3>
-                            <p>Support stays close to the product through iteration, maintenance, and steady improvement.</p>
-                            <ul>
-                                <li>Continuity after launch</li>
-                                <li>Fewer handoff risks</li>
-                                <li>Ongoing improvement</li>
-                            </ul>
-                        </article>
-                        <aside class="why-card why-card-summary" data-reveal>
-                            <p class="eyebrow">What this means</p>
-                            <h3>Confidence for the team, not just code.</h3>
-                            <div class="why-metrics">
-                                <div>
-                                    <strong>Clearer</strong>
-                                    <span>decisions from planning through delivery</span>
-                                </div>
-                                <div>
-                                    <strong>Faster</strong>
-                                    <span>alignment across the team</span>
-                                </div>
-                                <div>
-                                    <strong>Stronger</strong>
-                                    <span>foundations for growth and change</span>
-                                </div>
-                            </div>
-                        </aside>
-                    </div>
-                </div>
-            </section>
-            <section id="process" class="section bg-surface">
-                <div class="shell">
-                    <div class="section-heading" data-reveal>
-                        <p class="eyebrow">How we work together</p>
-                        <h2>A clear path from idea to impact.</h2>
-                        <p>You stay close to decisions, progress, and outcomes from start to finish.</p>
-                    </div>
-                    <ol class="process-grid mt-16">
-                        <li data-reveal>
-                            <span>01</span>
-                            <h3>Discover</h3>
-                            <p>We define the problem, priorities, and target outcome.</p>
-                        </li>
-                        <li data-reveal>
-                            <span>02</span>
-                            <h3>Shape</h3>
-                            <p>We plan the experience, structure, and delivery path.</p>
-                        </li>
-                        <li data-reveal>
-                            <span>03</span>
-                            <h3>Build</h3>
-                            <p>Working software ships in visible, testable increments.</p>
-                        </li>
-                        <li data-reveal>
-                            <span>04</span>
-                            <h3>Support</h3>
-                            <p>After launch, we maintain, refine, and improve.</p>
-                        </li>
-                    </ol>
-                </div>
-            </section>
-            <section id="about" class="section">
-                <div class="shell">
-                    <div class="about-card" data-reveal>
-                        <div>
-                            <p class="eyebrow">About Flowstate Tech</p>
-                            <h2 class="section-title">A focused engineering partner for growing teams.</h2>
-                        </div>
-                        <div class="text-lg leading-8 text-slate-300">
-                            <p>Flowstate Tech helps teams plan, build, and support software with direct collaboration, clear ownership, and room to grow.</p>
-                            <div class="mt-8 grid grid-cols-2 gap-5 border-t border-white/10 pt-8 text-sm text-slate-400">
-                                <span class="check-item">Fewer handoffs</span>
-                                <span class="check-item">Clear decisions</span>
-                                <span class="check-item">Measured delivery</span>
-                                <span class="check-item">Long-term context</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="contact" class="section contact-section">
-                <div class="shell grid gap-14 lg:grid-cols-[.72fr_1.28fr]">
-                    <div data-reveal>
-                        <p class="eyebrow">Start a conversation</p>
-                        <h2 class="section-title">Ready to improve or build something new?</h2>
-                        <p class="mt-6 text-lg leading-8 text-slate-400">Share what you're working toward. We’ll reply with clear next steps, usually within two business days.</p>
-                        <div class="mt-10 border-t border-white/10 pt-8">
-                            <p class="text-sm text-slate-500">Prefer email?</p>
-                            <a class="mt-2 inline-block text-lg font-medium text-white hover:text-cyan" href="mailto:hello@flowstatech.com">hello@flowstatech.com</a>
-                        </div>
-                    </div>
-                    <div data-reveal>
-                        <form class="contact-form" data-contact-form data-contact-email="hello@flowstatech.com" novalidate>
-                            <div class="form-grid">
-                                <div class="form-field">
-                                    <label for="name">Your name</label>
-                                    <input id="name" name="name" type="text" autocomplete="name" minlength="2" maxlength="100" required placeholder="Jane Smith">
-                                </div>
-                                <div class="form-field">
-                                    <label for="email">Email address</label>
-                                    <input id="email" name="email" type="email" autocomplete="email" maxlength="320" required placeholder="jane@company.com">
-                                </div>
-                                <div class="form-field">
-                                    <label for="company">
-                                        Company <span>optional</span>
-                                    </label>
-                                    <input id="company" name="company" type="text" autocomplete="organization" maxlength="120" placeholder="Your company">
-                                </div>
-                                <div class="form-field">
-                                    <label for="service">What can we help with?</label>
-                                    <select id="service" name="service" required>
-                                        <option value="">Select a service</option>
-                                        <option>Business application development</option>
-                                        <option>Systems and workflow integration</option>
-                                        <option>Digital experience design</option>
-                                        <option>Ongoing platform support</option>
-                                        <option>Not sure yet</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-field mt-5">
-                                <label for="message">Tell us about the project</label>
-                                <textarea id="message" name="message" minlength="20" maxlength="3000" required rows="5" placeholder="What are you looking to build, improve, or untangle?"></textarea>
-                            </div>
-                            <div class="honeypot" aria-hidden="true">
-                                <label for="website">Website</label>
-                                <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
-                            </div>
-                            <div class="mt-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-                                <p class="max-w-sm text-xs leading-5 text-slate-500">By submitting, you agree that Flowstate Tech may use these details to respond to your inquiry.</p>
-                                <button class="button button-primary shrink-0" type="submit">
-                                    Send message <span aria-hidden="true">&rarr;</span>
-                                </button>
-                            </div>
-                            <div class="form-status" role="status" aria-live="polite" data-form-status></div>
-                            <noscript>
-                                <p class="mt-4 text-sm text-slate-400">JavaScript is required for the form shortcut. You can email hello@flowstatech.com directly.</p>
-                            </noscript>
-                        </form>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer class="border-t border-white/10 bg-deep">
-            <div class="shell py-12">
-                <div class="grid gap-10 md:grid-cols-[1.3fr_1fr_1fr]">
-                    <div>
-                        <a href="index.html" class="flex items-center gap-3" aria-label="Flowstate Tech home">
-                            <span class="brand-mark brand-mark-small" aria-hidden="true">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </span>
-                            <span class="font-semibold text-white">
-                                flowstate<span class="text-cyan">tech</span>
-                            </span>
-                        </a>
-                        <p class="mt-4 max-w-sm text-sm leading-6 text-slate-400">Engineering support for focused teams building what’s next.</p>
-                    </div>
-                    <div>
-                        <p class="footer-heading">Navigate</p>
-                        <div class="mt-4 flex flex-col gap-3 text-sm text-slate-400">
-                            <a class="footer-link" href="#services">Services</a>
-                            <a class="footer-link" href="#process">Process</a>
-                            <a class="footer-link" href="privacy.html">Privacy</a>
-                        </div>
-                    </div>
-                    <div>
-                        <p class="footer-heading">Start a conversation</p>
-                        <a class="footer-link mt-4 inline-block text-sm" href="mailto:hello@flowstatech.com">hello@flowstatech.com</a>
-                    </div>
-                </div>
-                <div class="mt-12 flex flex-col gap-2 border-t border-white/10 pt-6 text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between">
-                    <p>
-                        &copy;<span data-current-year></span>
-                        Flowstate Tech. All rights reserved.
-                    </p>
-                    <p>Built with clarity. Supported for the long run.</p>
-                </div>
+          <div class="mt-10 flex flex-col gap-4 sm:flex-row">
+            <a class="button button-primary" href="#contact">Start the conversation <span aria-hidden="true">&rarr;</span></a>
+            <a class="button button-secondary" href="#services">See how we help</a>
+          </div>
+          <div class="mt-12 flex flex-wrap gap-x-8 gap-y-3 text-sm text-slate-400">
+            <span class="check-item">Direct collaboration</span>
+            <span class="check-item">Practical architecture</span>
+            <span class="check-item">Ongoing ownership</span>
+          </div>
+        </div>
+
+        <div class="relative mx-auto w-full max-w-xl" data-reveal data-hero-visual>
+          <div class="code-window" data-evolve-panel>
+            <div class="code-toolbar">
+              <div class="flex gap-2" aria-hidden="true"><span></span><span></span><span></span></div>
+              <span data-code-file data-code-toolbar>delivery-plan</span>
+              <span class="code-status" data-code-status data-code-toolbar>&bull; active</span>
             </div>
-        </footer>
-    </body>
+            <div class="code-content" aria-label="An illustration of a delivery workflow">
+              <div data-code-line><span class="code-purple">project</span> = {</div>
+              <div class="pl-5" data-code-line><span class="code-blue">goal</span>: <span class="code-green" data-code-goal>"solve the right problem"</span>,</div>
+              <div class="pl-5" data-code-line><span class="code-blue">pace</span>: <span class="code-green" data-code-pace>"measured delivery"</span>,</div>
+              <div class="pl-5" data-code-line><span class="code-blue">support</span>: <span class="code-green" data-code-support>"long-term"</span>,</div>
+              <div data-code-line>}</div>
+              <div class="h-4" aria-hidden="true"></div>
+              <div data-code-line><span class="code-cyan" data-code-step-one>review</span>(project)</div>
+              <div data-code-line><span class="code-cyan" data-code-step-two>build</span>(project)</div>
+              <div data-code-line><span class="code-cyan" data-code-step-three>improve</span>(project)</div>
+              <div class="h-4" aria-hidden="true"></div>
+              <div data-code-line><span class="code-purple">status</span> = <span class="code-green" data-code-result>"moving forward"</span></div>
+            </div>
+            <div class="code-footer">
+              <span><i></i> <span data-code-footer-left>Delivery aligned</span></span><span data-code-footer-right>Built to evolve</span>
+            </div>
+          </div>
+          <div class="hero-card-link" aria-hidden="true"><span class="hero-card-signal"></span></div>
+          <button class="floating-card floating-card-top floating-card-button" type="button" data-uptime-trigger aria-pressed="false" aria-label="Preview the uptime and reliability mode">
+            <span class="pulse-ring"></span><div><strong>99.9%</strong><small>uptime target</small></div>
+          </button>
+          <button class="floating-card floating-card-bottom floating-card-button" type="button" data-evolve-trigger aria-pressed="false" aria-label="Preview how the product evolves over time">
+            <span class="metric-icon">&#8599;</span><div><strong>Built to evolve</strong><small>without the rewrite</small></div>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="metrics-band">
+      <div class="shell">
+        <div class="metrics-grid">
+          <article class="metric-card" data-reveal><strong>Focused delivery</strong><span>Work shaped around business priorities.</span></article>
+          <article class="metric-card" data-reveal><strong>Long-term support</strong><span>Built with continuity and change in mind.</span></article>
+          <article class="metric-card" data-reveal><strong>Clear collaboration</strong><span>Direct communication keeps decisions moving.</span></article>
+          <article class="metric-card" data-reveal><strong>Growth-ready systems</strong><span>Systems designed to keep up as teams evolve.</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section bg-surface">
+      <div class="shell">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">What we build</p>
+          <h2>Software delivery that helps your business move faster.</h2>
+          <p>Practical product and engineering support without unnecessary overhead.</p>
+        </div>
+        <div class="mt-14 grid gap-5 md:grid-cols-2">
+          <article class="service-card" data-reveal><span class="service-number">01</span><div class="service-icon">&#8984;</div><h3>Custom business applications</h3><p>Internal tools, portals, dashboards, and workflows shaped around how your team actually works.</p><ul><li>Internal platforms</li><li>Responsive interfaces</li><li>Workflow automation</li></ul></article>
+          <article class="service-card" data-reveal><span class="service-number">02</span><div class="service-icon">{ }</div><h3>Connected systems &amp; workflows</h3><p>Reliable service layers that connect data, business rules, and the systems your team depends on.</p><ul><li>Application services</li><li>Systems integration</li><li>Secure data flows</li></ul></article>
+          <article class="service-card" data-reveal><span class="service-number">03</span><div class="service-icon">&#9707;</div><h3>Digital experiences</h3><p>Fast, accessible user experiences that feel clear, polished, and easy to use.</p><ul><li>Design systems</li><li>Accessible interactions</li><li>Responsive experiences</li></ul></article>
+          <article class="service-card" data-reveal><span class="service-number">04</span><div class="service-icon">&#8635;</div><h3>Ongoing platform support</h3><p>Long-term support that keeps your application healthy, secure, and aligned with the business.</p><ul><li>Deployment and monitoring</li><li>Maintenance and enhancements</li><li>Performance and reliability</li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="approach" class="section overflow-hidden">
+      <div class="shell">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Why Flowstate Tech</p>
+          <h2>Built for teams that need clarity, momentum, and dependable execution.</h2>
+          <p>Clear thinking, strong execution, and ownership that lasts beyond launch.</p>
+        </div>
+        <div class="why-grid mt-14">
+          <article class="why-card why-card-feature" data-reveal><span class="why-label">01</span><h3>Business-first execution</h3><p>Work starts from the business outcome, not technical novelty.</p><ul><li>Clear delivery priorities</li><li>Practical product decisions</li><li>Less wasted effort</li></ul></article>
+          <article class="why-card why-card-feature" data-reveal><span class="why-label">02</span><h3>Systems that stay understandable</h3><p>Applications stay maintainable, adaptable, and easier for teams to work with over time.</p><ul><li>Maintainable architecture</li><li>Clear system boundaries</li><li>Safer future changes</li></ul></article>
+          <article class="why-card why-card-feature" data-reveal><span class="why-label">03</span><h3>Long-term technical ownership</h3><p>Support stays close to the product through iteration, maintenance, and steady improvement.</p><ul><li>Continuity after launch</li><li>Fewer handoff risks</li><li>Ongoing improvement</li></ul></article>
+          <aside class="why-card why-card-summary" data-reveal><p class="eyebrow">What this means</p><h3>Confidence for the team, not just code.</h3><div class="why-metrics"><div><strong>Clearer</strong><span>decisions from planning through delivery</span></div><div><strong>Faster</strong><span>alignment across the team</span></div><div><strong>Stronger</strong><span>foundations for growth and change</span></div></div></aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section bg-surface">
+      <div class="shell">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">How we work together</p>
+          <h2>A clear path from idea to impact.</h2>
+          <p>You stay close to decisions, progress, and outcomes from start to finish.</p>
+        </div>
+        <ol class="process-grid mt-16">
+          <li data-reveal><span>01</span><h3>Discover</h3><p>We define the problem, priorities, and target outcome.</p></li>
+          <li data-reveal><span>02</span><h3>Shape</h3><p>We plan the experience, structure, and delivery path.</p></li>
+          <li data-reveal><span>03</span><h3>Build</h3><p>Working software ships in visible, testable increments.</p></li>
+          <li data-reveal><span>04</span><h3>Support</h3><p>After launch, we maintain, refine, and improve.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="shell">
+        <div class="about-card" data-reveal>
+          <div><p class="eyebrow">About Flowstate Tech</p><h2 class="section-title">A focused engineering partner for growing teams.</h2></div>
+          <div class="text-lg leading-8 text-slate-300"><p>Flowstate Tech helps teams plan, build, and support software with direct collaboration, clear ownership, and room to grow.</p><div class="mt-8 grid grid-cols-2 gap-5 border-t border-white/10 pt-8 text-sm text-slate-400"><span class="check-item">Fewer handoffs</span><span class="check-item">Clear decisions</span><span class="check-item">Measured delivery</span><span class="check-item">Long-term context</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="shell grid gap-14 lg:grid-cols-[.72fr_1.28fr]">
+        <div data-reveal>
+          <p class="eyebrow">Start a conversation</p>
+          <h2 class="section-title">Ready to improve or build something new?</h2>
+          <p class="mt-6 text-lg leading-8 text-slate-400">Share what you're working toward. We'll reply with clear next steps, usually within two business days.</p>
+          <div class="mt-10 border-t border-white/10 pt-8">
+            <p class="text-sm text-slate-500">Prefer email?</p>
+            <a class="mt-2 inline-block text-lg font-medium text-white hover:text-cyan" href="mailto:hello@flowstatech.com">hello@flowstatech.com</a>
+          </div>
+        </div>
+        <div data-reveal>
+          <form class="contact-form" data-contact-form data-contact-email="hello@flowstatech.com" novalidate>
+            <div class="form-grid">
+              <div class="form-field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" minlength="2" maxlength="100" required placeholder="Jane Smith"></div>
+              <div class="form-field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" maxlength="320" required placeholder="jane@company.com"></div>
+              <div class="form-field"><label for="company">Company <span>optional</span></label><input id="company" name="company" type="text" autocomplete="organization" maxlength="120" placeholder="Your company"></div>
+              <div class="form-field"><label for="service">What can we help with?</label><select id="service" name="service" required><option value="">Select a service</option><option>Business application development</option><option>Systems and workflow integration</option><option>Digital experience design</option><option>Ongoing platform support</option><option>Not sure yet</option></select></div>
+            </div>
+            <div class="form-field mt-5"><label for="message">Tell us about the project</label><textarea id="message" name="message" minlength="20" maxlength="3000" required rows="5" placeholder="What are you looking to build, improve, or untangle?"></textarea></div>
+            <div class="honeypot" aria-hidden="true"><label for="website">Website</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+            <div class="mt-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+              <p class="max-w-sm text-xs leading-5 text-slate-500">By submitting, you agree that Flowstate Tech may use these details to respond to your inquiry.</p>
+              <button class="button button-primary shrink-0" type="submit">Send message <span aria-hidden="true">&rarr;</span></button>
+            </div>
+            <div class="form-status" role="status" aria-live="polite" data-form-status></div>
+            <noscript><p class="mt-4 text-sm text-slate-400">JavaScript is required for the form shortcut. You can email hello@flowstatech.com directly.</p></noscript>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10 bg-deep">
+    <div class="shell py-12">
+      <div class="grid gap-10 md:grid-cols-[1.3fr_1fr_1fr]">
+        <div><a href="index.html" class="flex items-center gap-3" aria-label="Flowstate Tech home"><span class="brand-mark brand-mark-small" aria-hidden="true"><span></span><span></span><span></span></span><span class="font-semibold text-white">flowstate<span class="text-cyan">tech</span></span></a><p class="mt-4 max-w-sm text-sm leading-6 text-slate-400">Engineering support for focused teams building what's next.</p></div>
+        <div><p class="footer-heading">Navigate</p><div class="mt-4 flex flex-col gap-3 text-sm text-slate-400"><a class="footer-link" href="#services">Services</a><a class="footer-link" href="#process">Process</a><a class="footer-link" href="privacy.html">Privacy</a></div></div>
+        <div><p class="footer-heading">Start a conversation</p><a class="footer-link mt-4 inline-block text-sm" href="mailto:hello@flowstatech.com">hello@flowstatech.com</a></div>
+      </div>
+      <div class="mt-12 flex flex-col gap-2 border-t border-white/10 pt-6 text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between">
+        <p>&copy; <span data-current-year></span> Flowstate Tech. All rights reserved.</p>
+        <p>Built with clarity. Supported for the long run.</p>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
